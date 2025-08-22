@@ -1,6 +1,6 @@
 # 3D Widefield Imaging with ADAPT-3D and Huygens
 
-A custom pipeline for rapid, large-volume 3D tissue imaging using a benchtop widefield microscopy combined with depth-variant deconvolution on [Huygens](https://svi.nl/Huygens-Widefield-Software) (Scientific Volume Imaging). Examples are demonstrated with the tissue preparation method called ADAPT-3D (link). Implements optimized prefiltering, PSF-based deconvolution, and Z-bricking to recover subnuclear resolution in thick, cleared tissues. Enables stitched, high-resolution volumetric analysis using accessible widefield systems.
+A custom pipeline for rapid, large-volume 3D tissue imaging using a benchtop widefield microscopy combined with depth-variant deconvolution on [Huygens](https://svi.nl/Huygens-Widefield-Software) (Scientific Volume Imaging). Examples are demonstrated with the tissue preparation method called [ADAPT-3D](https://www.researchsquare.com/article/rs-6109657/v1). Implements optimized prefiltering, PSF-based deconvolution, and Z-bricking to recover subnuclear resolution in thick, cleared tissues. Enables stitched, high-resolution volumetric analysis using accessible widefield systems.
 
 Built around Scientific Volume Imaging’s Huygens software, the accompanying Python script implements our prefiltering approach for multi-tiled images. In total, this approach allows for:
 
